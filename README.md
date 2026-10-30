@@ -3,18 +3,14 @@ IDEIA BASE: Cada time tem informações de força, e cada partida realizará um 
 
 # Objetivos Primários
 ## 1 - Times
-[ ] Estrutura do Time (nome e força)
-
+[ X ] Estrutura do Time (nome e força)
 [ ] Criar alguns times manualmente
 
 ## 2 - Simulação
 [ ] Mostrar placar da partida minuto a minuto
-
-[ ] Força Influencia na quantidade de gols
-
-[ ] Vantagem de Jogar em casa
-
-[ ] Aleatoriedade nos resultados (time mais forte não precisa ganhar sempre)
+[ X ] Força Influencia na quantidade de gols
+[ X ] Vantagem de Jogar em casa
+[ X ] Aleatoriedade nos resultados (time mais forte não precisa ganhar sempre)
 
 ## 3 - Copa
 [ ] Criar chaveamentos automáticos
