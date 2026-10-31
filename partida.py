@@ -21,5 +21,5 @@ def simular_partida(time1, time2):
             gols1 += 1
         if random.randint(1, probabilidadeGol) < time2.forca - (time1.forca // 1.8 + random.random()):
             gols2 += 1
-        #print(f"{time1.nome}: {gols1} | {time2.nome}: {gols2} || {i + 1} minutos")
-    print(f"{time1.nome}: {gols1} | {time2.nome}: {gols2}\n{nivelPartida} de nível de partida\n")
+        print(f"{time1.nome}: {gols1} | {time2.nome}: {gols2} || {i + 1} minutos", end="\r")
+        sleep(0.1)
