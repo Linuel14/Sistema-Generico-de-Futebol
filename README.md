@@ -26,10 +26,10 @@ IDEIA BASE: Cada time tem informações de força, e cada partida realizará um 
 [ ] Simular jogo a jogo da copa e ter campeão, vice e terceiro lugar.
 
 ## 4 - Times Complexos
-[ ] Criar sistema de força tripartidário (defesa, meio-campo e ataque)
+[ # ] Criar sistema de força tripartidário (defesa, meio-campo e ataque)
 
-[ ] Fazer um time enfrentar a parte específica do outro
+[ # ] Fazer um time enfrentar a parte específica do outro
 
 [ ] Adicionar fator de fase para esses times
 
-[ ] Ter uma quantidade de criação de jogadas, finalizações delimitadas durante a partida
+[ # ] Ter uma quantidade de criação de jogadas, finalizações delimitadas durante a partida
