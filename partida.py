@@ -23,19 +23,19 @@ def simular_partida(time1, time2):
         #    probabilidadeFinalizacao = 100
     
     if nivelPartida > 90:
-        probabilidadeGol = 3500
+        probabilidadeGol = 450 - random.choice([-200, 0, 0, 100, 200])
         probabilidadeFinalizacao = 500
     elif nivelPartida > 80:
-        probabilidadeGol = 2000
+        probabilidadeGol = 350 - random.choice([-200, -100, 0, 130, 250])
         probabilidadeFinalizacao = 450
     elif nivelPartida > 70:
-        probabilidadeGol = 2000
+        probabilidadeGol = 350 - random.choice([-200, -100, 0, 0, 130, 230])
         probabilidadeFinalizacao = 300
     elif nivelPartida > 60:
-        probabilidadeGol = 1000
+        probabilidadeGol = 350 - random.choice([-200, -100, 0, 0, 130, 250])
         probabilidadeFinalizacao = 250
     else:
-        probabilidadeGol = 1000
+        probabilidadeGol = 350 - random.choice([-100, 0, 0, 130, 250])
         probabilidadeFinalizacao = 150
 
     for i in range(90 + random.randint(0, 5)):
@@ -50,4 +50,4 @@ def simular_partida(time1, time2):
         
         print(f"{time1.nome}: {gols1} | {time2.nome}: {gols2} || {i + 1} minutos", end="\r")
         #sleep(0.1)
-    print(f"{finalizacoes1} finalizações de {time1.nome} e {finalizacoes2} finalizações de {time2.nome}\n {nivelPartida} de nível da partida")
+    print(f'{nivelPartida} || {time1.nome}: {gols1} | {time2.nome}: {gols2} || {finalizacoes1} finalizações | {finalizacoes2} finalizações')
