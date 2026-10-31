@@ -31,3 +31,5 @@ IDEIA BASE: Cada time tem informações de força, e cada partida realizará um 
 [ ] Fazer um time enfrentar a parte específica do outro
 
 [ ] Adicionar fator de fase para esses times
+
+[ ] Ter uma quantidade de criação de jogadas, finalizações delimitadas durante a partida

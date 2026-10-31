@@ -1,4 +1,4 @@
 class Time():
-    def __init__(self, nome, forca):
+    def __init__(self, nome, forcaDefesa, forcaMeio, forcaAtaque):
         self.nome = nome
-        self.forca = forca
+        self.forca = [forcaDefesa, forcaMeio, forcaAtaque]
