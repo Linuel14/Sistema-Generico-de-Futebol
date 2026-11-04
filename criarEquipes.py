@@ -9,6 +9,5 @@ def criar_equipes():
     with open(f'./dados/ligas/{nomeLiga}.pkl', 'wb') as arquivo:
         pickle.dump(timesLiga, arquivo)
     with open(f'./dados/ligas.pkl', 'ab') as arquivo:
-        pickle.dump(nomeLiga, arquivo)
-
+        pickle.dump(nomeLiga, arquivo) 
 criar_equipes()
