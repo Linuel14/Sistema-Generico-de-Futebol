@@ -1,4 +1,5 @@
 import pickle
+from time import sleep
 
 def selecionarLiga():
     while True:
@@ -23,7 +24,9 @@ def selecionarLiga():
                 liga = pickle.load(times)
                 return liga
         except IndexError:
+            sleep(0.5)
             print("Erro: Digite apenas os numeros das ligas mostradas")
+            sleep(0.5)
 
 def selecionarTime():
     liga = selecionarLiga()
@@ -42,7 +45,9 @@ def selecionarTime():
                 if time.nome == liga[nomeTime - 1].nome:
                     return time
         except IndexError:
+            sleep(0.5)
             print("Erro: Digite apenas os numeros dos times mostrados")
+            sleep(1)
 
 class Time():
     def __init__(self, nome, forcaDefesa, forcaMeio, forcaAtaque):
